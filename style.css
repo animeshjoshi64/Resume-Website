@@ -1,0 +1,38 @@
+h1 {
+  text-align: left;
+  font-size: 17px;
+  font-family: Cambria;
+  color: white;
+}
+body{
+  background-color: black
+}
+
+p{
+  text-align: left
+  font-family: Cambria;
+  color: white;
+  
+}
+
+
+li{
+  display: inline;
+  float: right;
+  padding: 7px;
+ margin: 5px;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  
+}
+li a:hover {
+  background-color: red;
+}
+
+li a:nth-child(even):hover {background-color: white;}
+
+
+
