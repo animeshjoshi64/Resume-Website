@@ -1,6 +1,6 @@
 h1 {
   text-align: left;
-  font-size: 19px;
+  font-size: 27px;
   font-family: Cambria;
   color: white;
 }
@@ -11,7 +11,7 @@ body{
 p{
   text-align: left
   font-family: Cambria;
-  font-size: 11px;
+  font-size: 19px;
   color: white;
   
 }
@@ -35,6 +35,8 @@ li a:hover {
 }
 
 li a:nth-child(even):hover {background-color: white;}
+
+
 
 
 
