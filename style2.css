@@ -1,0 +1,53 @@
+h1 {
+  text-align: left;
+  font-size: 27px;
+  font-family: Cambria;
+  color: white;
+}
+body{
+  background-color: black
+}
+li{
+  display: inline;
+  float: right;
+  padding: 7px;
+ margin: 5px;
+ 
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  
+}
+li a:hover {
+  background-color: red;
+}
+
+li a:nth-child(even):hover {background-color: white;}
+
+h4{
+  margin-left: 40px;
+  color: white;
+  font-size: 15px;
+  
+  
+}
+
+div{
+   color: white;
+  text-align: left;
+  font-size: 13px;
+  list-style-type: circle;
+}
+
+h5, h6{
+  color: white;
+  font-size: 15px;
+}
+img{
+  float: right;
+  position: relative;
+  top: -700px;
+    
+}
