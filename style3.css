@@ -1,0 +1,87 @@
+h1 {
+  text-align: left;
+  font-size: 27px;
+  font-family: Cambria;
+  color: white;
+}
+body{
+  background-color: black
+}
+li{
+  display: inline;
+  float: right;
+  padding: 7px;
+ margin: 5px;
+ 
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  
+}
+li a:hover {
+  background-color: red;
+}
+
+li a:nth-child(even):hover {background-color: white;}
+.content {
+  width: 80%;
+  padding: 20px;
+  margin: 0 auto;
+  padding: 0 60px 0 0;
+}
+
+.centerplease {
+  margin: 0 auto;
+  max-width: 270px;
+  font-size: 40px;
+}
+
+.question {
+  color: black;
+  position: relative;
+  background: white;
+  margin: 0;
+  padding: 10px 10px 10px 50px;
+  display: block;
+  width:100%;
+}
+
+.answers {
+  font-weight:300;
+  background: black;
+  padding: 0px 15px;
+  margin: 0px 0;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+  position: relative;
+  color: white;
+  
+ 
+}
+
+.questions:checked ~ .answers{
+  height: auto;
+  opacity: 1;
+  padding: 15px;
+}
+
+.more {
+
+  color: black;
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 3px;
+  z-index: 5;
+  font-size: 2em;
+  line-height: 100%;
+ 
+}
+
+
+
+.questions {
+  display: none;
+}
